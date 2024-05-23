@@ -5,3 +5,5 @@ https://www.figma.com/design/bfdnoFTYGJdILqJ0erIftW/portfolio-otavio-cardoso?nod
 ## inspiração:
 
 https://prettyfolio.com/ismael-branco
+
+https://www.fernandakipper.com/
