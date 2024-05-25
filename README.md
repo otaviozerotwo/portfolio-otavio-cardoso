@@ -7,3 +7,5 @@ https://www.figma.com/design/bfdnoFTYGJdILqJ0erIftW/portfolio-otavio-cardoso?nod
 https://prettyfolio.com/ismael-branco
 
 https://www.fernandakipper.com/
+
+https://www.figma.com/design/awOsLwL3gvW7fnBo9FLuat/Dark-Portfolio-(Community)?node-id=1-2&t=EAm6s6VltP9cBraf-0
