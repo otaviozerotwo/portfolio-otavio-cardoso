@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./main.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   <script src="./script.js" defer></script>
 
   <title>Otávio Cardoso - Dev Front-End</title>
@@ -21,12 +25,26 @@
           <li><a href="#">Contato</a></li>
         </ul>
   
-        <!-- <div class="mobile-menu" id="mobileMenu"></div> -->
+        <div class="mobile-menu" id="mobileMenu">
+          <button class="fechar-menu" id="botaoFecharMenu">
+            <i class="fas fa-times"></i>
+          </button>
+
+          <ul class="nav-links-mobile">
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+
+        <button class="menu-hamburger" id="botaoHamburger">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
     </div>
   </header>
 
-  <section id="sobre-mim">
+  <section id="sobreMim">
     <div class="container">
       <div>
         <h2>Olá, sou o Otávio!</h2>
