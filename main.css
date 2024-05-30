@@ -14,20 +14,62 @@ body {
 
 .container {
   max-width: 1280px;
-  /* width: 100%; */
   margin: 0 auto;
 }
 
 header .container {
   display: flex;
   justify-content: space-between;
+}
+
+header .container {
   align-items: center;
   padding: 10px 20px;
   height: 50px;
 }
 
+section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 100px auto;
+}
+
+#sobreMim .container {
+  width: 90%;
+}
+
+.sobre-mim-container-img-contatos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sobre-mim-container-descricao {
+  max-width: 600px;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.sobre-mim-container-descricao h2{
+  font-size: 48px;
+  text-align: center;
+}
+
+.sobre-mim-img {
+  height: 400px;
+  width: 400px;
+  background: url(./img/img-sobre-mim.jpeg) no-repeat center;
+  border-radius: 20px;
+  border: 1px solid #FFF;
+}
+
 h1 {
   font-size: 24px;
+}
+
+h2 {
+  color: #16698f;
 }
 
 .nav-links-desktop {
@@ -101,6 +143,13 @@ h1 {
   display: flex;
 }
 
+@media (max-width: 948px) {
+  #sobreMim .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 12px;
@@ -113,4 +162,36 @@ h1 {
   .menu-hamburger {
     display: block;
   }
+}
+
+.sobre-mim-img {
+  height: 400px;
+}
+
+.sobre-mim-contatos {
+  display: flex;
+  align-items: center;
+}
+
+.sobre-mim-contatos img {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #FFF;
+  border-radius: 40%;
+}
+
+.sobre-mim-download-cv {
+  font-size: 14px;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  padding: 4px 5px;
+}
+
+.sobre-mim-contatos li {
+  display: inline;
+  margin-right: 16px;
+}
+
+.sobre-mim-contatos a {
+  text-decoration: none;
 }
