@@ -29,3 +29,21 @@ header .container {
 h1 {
   font-size: 24px;
 }
+
+.nav-links-desktop {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links-desktop li {
+  padding: 0 15px;
+}
+
+.nav-links-desktop a {
+  color: #F5F5EF;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
