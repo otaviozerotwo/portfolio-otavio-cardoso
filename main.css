@@ -12,6 +12,10 @@ body {
   color: #F5F5EF;
 }
 
+header {
+  background-color: #272727;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -200,4 +204,5 @@ h2 {
 footer {
   text-align: center;
   padding: 10px;
+  background-color: #272727;
 }
