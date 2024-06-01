@@ -12,7 +12,8 @@ body {
   color: #F5F5EF;
 }
 
-header {
+header,
+footer {
   background-color: #272727;
 }
 
@@ -70,6 +71,7 @@ h1 {
   font-size: 24px;
 }
 
+h1,
 h2 {
   color: #16698f;
 }
@@ -202,8 +204,39 @@ h2 {
   text-decoration: none;
 }
 
+#projetos .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projetos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 0px;
+}
+
+.projetos-lista li {
+  height: 220px;
+  background-color: #FFF;
+  border-radius: 8px;
+  list-style: none;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .projetos-lista li {
+    width: 48%;
+  }
+}
+
+.projetos-lista li a {
+  text-decoration: none;
+  padding: 16px;
+}
+
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #272727;
 }
