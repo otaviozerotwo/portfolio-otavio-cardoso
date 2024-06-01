@@ -35,7 +35,7 @@ section .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 #sobreMim .container {
@@ -45,7 +45,12 @@ section .container {
 .sobre-mim-container-img-contatos {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+}
+
+.sobre-mim-contatos {
+  padding: 0px;
 }
 
 .sobre-mim-container-descricao {
@@ -67,12 +72,14 @@ h2{
   border: 1px solid #FFF;
 }
 
-h1 {
+h1,
+h3 {
   font-size: 24px;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #16698f;
 }
 
@@ -182,17 +189,8 @@ h2 {
 }
 
 .sobre-mim-contatos img {
-  height: 24px;
-  width: 24px;
-  border: 1px solid #FFF;
-  border-radius: 40%;
-}
-
-.sobre-mim-download-cv {
-  font-size: 14px;
-  border: 1px solid #FFF;
-  border-radius: 20px;
-  padding: 4px 5px;
+  height: 48px;
+  width: 48px;
 }
 
 .sobre-mim-contatos li {
@@ -239,11 +237,6 @@ h2 {
   text-decoration: none;
   padding: 0px 16px;
   color: #000;
-}
-
-.projetos-lista li a h3 {
-  color: #084D6E;
-  font-size: 24px;
 }
 
 footer {
