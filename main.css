@@ -70,8 +70,8 @@ h2{
   height: 400px;
   width: 400px;
   background: url(./img/img-sobre-mim.jpeg) no-repeat center;
-  border-radius: 20px;
-  border: 1px solid #FFF;
+  border-radius: 50%;
+  border: 1px solid #787272;
 }
 
 h1,
