@@ -1,5 +1,7 @@
 body,
-html {
+html,
+input,
+textarea {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -155,9 +157,17 @@ h3 {
 }
 
 @media (max-width: 948px) {
-  #sobreMim .container {
+  #sobreMim .container,
+  #contato .contato-tipos {
     flex-direction: column;
     align-items: center;
+  }
+
+  .contato-form,
+  .contato-externo,
+  .contato-mais-projetos {
+    width: 30%;
+    text-align: center;
   }
 }
 
@@ -198,7 +208,8 @@ h3 {
   margin-right: 16px;
 }
 
-.sobre-mim-contatos a {
+.sobre-mim-contatos a
+.contato-tipos a {
   text-decoration: none;
 }
 
@@ -237,6 +248,71 @@ h3 {
   text-decoration: none;
   padding: 0px 16px;
   color: #000;
+}
+
+#contato .container {
+  display: block;
+}
+
+.contato-tipos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contato-externo .contato-externo-links,
+.contato-mais-projetos .contato-mais-projetos-links {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.contato-externo-links,
+.contato-mais-projetos-links {
+  list-style: none;
+}
+
+.contato-externo-links img {
+  width: 56px;
+  height: 56px;
+}
+
+.contato-form,
+.contato-externo,
+.contato-mais-projetos {
+  width: 80%;
+  text-align: center;
+}
+
+.contato-tipos form input,
+.contato-tipos form textarea,
+.contato-tipos form button {
+  width: 90%;
+  margin: 0px 8px 8px 8px;
+  padding: 8px;
+}
+
+.contato-tipos form input,
+.contato-tipos form textarea {
+  outline-color: #084D6E;
+}
+
+.contato-tipos form textarea {
+  resize: none;
+  height: 180px;
+}
+
+.contato-tipos form button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #16698f;
+  color: #FFF;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contato-tipos form button:hover {
+  background-color: #084D6E;
 }
 
 footer {
