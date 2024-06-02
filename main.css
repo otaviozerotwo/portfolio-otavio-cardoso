@@ -262,7 +262,7 @@ h3 {
 .contato-externo .contato-externo-links,
 .contato-mais-projetos .contato-mais-projetos-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 0px;
 }
 
